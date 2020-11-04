@@ -2,7 +2,7 @@ var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 		var element = document.getElementById('text');
 		if (isMobile) {
       
-      document.body.style.background = "url(https://i.imgur.com/HKwWdne.png) no-repeat center center fixed";
+      document.body.style.background = "url(https://imgur.com/a/fl0PKQ1) no-repeat center center fixed";
 		} else {
 			 console.log("Obama is222 ")
 
