@@ -1,3 +1,13 @@
+var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+		var element = document.getElementById('text');
+		if (isMobile) {
+      
+      document.body.style.background = "url(https://i.imgur.com/HKwWdne.png) no-repeat center center fixed";
+		} else {
+			 console.log("Obama is222 ")
+
+		}
+
 const bdayBallons = (function(){
     const density = 7; // concurrent balloon count
     const balloons = []; 
